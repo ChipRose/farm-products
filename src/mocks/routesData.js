@@ -1,6 +1,6 @@
 const routesData = {
-  MAIN: "/",
-  ORDER: "/order",
+  MAIN: "/farm-products/",
+  ORDER: "/farm-products/order",
   ERROR404: "*"
 };
 
