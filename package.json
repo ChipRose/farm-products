@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "index.js",
+  "homepage": "https://chiprose.github.io/farm-products/",
   "dependencies": {
-    "customize-cra": "^1.0.0",
+    "customize-cra": "1.0.0",
     "prop-types": "15.8.1",
     "react": "18.0.0",
-    "react-app-rewired": "^2.2.1",
+    "react-app-rewired": "2.2.1",
     "react-dom": "18.0.0",
     "react-icons": "4.8.0",
     "react-router-dom": "6.9.0",
@@ -18,7 +19,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
-    "gh-pages": "^5.0.0",
+    "gh-pages": "5.0.0",
     "typescript": "4.1.3"
   },
   "scripts": {

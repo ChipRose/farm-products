@@ -3,8 +3,9 @@ import styled from "styled-components";
 const ProductCardView = styled.div`
   padding: 20px;
   box-sizing: border-box;
-  height: 288px;
+  min-height: 288px;
   display: flex;
+  overflow: hidden;
   background: ${({ theme }) => theme.color.contrast};
   border: 1px solid ${({ theme }) => theme.color.neutralDark};
 `;
@@ -25,7 +26,7 @@ const ProductCardTextBlockView = styled.div`
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow: hidden;
 `;
 
 export { ProductCardView, ProductCardImageBlockView, ProductCardTextBlockView };

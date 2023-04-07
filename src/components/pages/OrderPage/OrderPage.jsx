@@ -6,10 +6,10 @@ import Slider from "/src/components/blocks/Slider/Slider";
 import OutOfProduct from "/src/components/ui/OutOfProduct/OutOfProduct";
 
 import {
-  StyledOrderPage,
-  StyledOrderContainer,
-  StyledOrderFormWrapper,
-  StyledOrderCatalogWrapper
+  OrderPageView,
+  OrderContainerView,
+  OrderFormWrapperView,
+  OrderCatalogWrapperView
 } from "./style";
 
 function OrderPage() {
@@ -68,10 +68,10 @@ function OrderPage() {
   }, [catalogHeight]);
 
   return (
-    <StyledOrderPage height={catalogHeight}>
+    <OrderPageView height={catalogHeight}>
       {products?.length ? (
-        <StyledOrderContainer>
-          <StyledOrderFormWrapper>
+        <OrderContainerView>
+          <OrderFormWrapperView>
             <OrderForm
               setHeight={setBuyPanelHeight}
               ref={orderFormRef}
@@ -82,15 +82,15 @@ function OrderPage() {
               text={text}
               handleUpdateText={handleOnTextInput}
             />
-          </StyledOrderFormWrapper>
-          <StyledOrderCatalogWrapper height={catalogHeight}>
+          </OrderFormWrapperView>
+          <OrderCatalogWrapperView height={catalogHeight} minHeight={buyPanelHeight+18}>
             <Slider onSwiper={setSwiperRef} />
-          </StyledOrderCatalogWrapper>
-        </StyledOrderContainer>
+          </OrderCatalogWrapperView>
+        </OrderContainerView>
       ) : (
         <OutOfProduct />
       )}
-    </StyledOrderPage>
+    </OrderPageView>
   );
 }
 
