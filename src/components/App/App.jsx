@@ -20,7 +20,7 @@ function App() {
       <FeaturesHook>
         <ProductsHook>
           <GlobalStyle />
-          <BrowserRouter>
+          <BrowserRouter basename='/farm-products'>
             <ScrollToTop />
             <Routes>
               <Route path={routesData.MAIN} element={<PageWrapper />}>

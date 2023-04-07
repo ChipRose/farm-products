@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     font-family: "Inter", "Arial", sans-serif;
+    overflow: hidden;
     ${({ theme }) => `
       font-size: ${theme.fontSize.main};
       line-height: ${theme.lineHeight.main};
