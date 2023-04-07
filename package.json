@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "index.js",
-  "homepage": "https://chiprose.github.io/farm-products/",
+  "homepage": "https://chiprose.github.io/farm-products",
   "dependencies": {
     "customize-cra": "1.0.0",
     "prop-types": "15.8.1",
