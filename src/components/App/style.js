@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0 0 0 calc(100vw - 100%);
     width: 100vw;
     min-width: 1140px;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: "Inter", "Arial", sans-serif;
