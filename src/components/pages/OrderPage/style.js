@@ -29,8 +29,7 @@ const OrderFormWrapperView = styled.div`
 const OrderCatalogWrapperView = styled.div`
   grid-row: 1/2;
   grid-column: 2/3;
-  height: ${({ height }) => `${height}px`};
-  min-height: ${({minHeight})=>`${minHeight}px`};
+  height: ${({ height, minHeight }) => height > minHeight ? `${height}px` : `${minHeight}px`};
 `;
 
 export {

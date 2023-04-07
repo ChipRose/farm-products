@@ -83,7 +83,7 @@ function OrderPage() {
               handleUpdateText={handleOnTextInput}
             />
           </OrderFormWrapperView>
-          <OrderCatalogWrapperView height={catalogHeight} minHeight={buyPanelHeight+18}>
+          <OrderCatalogWrapperView height={catalogHeight} minHeight={buyPanelHeight}>
             <Slider onSwiper={setSwiperRef} />
           </OrderCatalogWrapperView>
         </OrderContainerView>
