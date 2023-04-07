@@ -56,7 +56,7 @@ const TabButton = css`
 
 const LinkButton = css`
   min-height: 37px;
-  padding: 8px 0;
+  padding: 8px 12px;
   color: ${({ theme }) => theme.color.main};
   :hover {
     text-decoration: underline;
