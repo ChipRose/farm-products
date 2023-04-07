@@ -3,6 +3,7 @@ import { Container } from "/src/components/styled";
 
 const HeaderView = styled.header`
   min-height: 80px;
+  overflow: hidden;
   ${({ theme }) => `
     background: ${theme.color.contrast};
     box-shadow: ${theme.shadow.light};
