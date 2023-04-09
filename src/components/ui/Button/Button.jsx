@@ -29,9 +29,10 @@ export default Button;
 
 Button.propTypes = {
   variant: PropTypes.oneOf(["main", "tab", "link"]),
-  width: PropTypes.number,
   type: PropTypes.oneOf(["button", "submit"]),
+  width: PropTypes.number,
   link: PropTypes.string,
   children: PropTypes.string,
+  active: PropTypes.bool,
   onClick: PropTypes.func
 };

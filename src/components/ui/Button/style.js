@@ -9,6 +9,7 @@ const BasicStyledButton = css`
   text-decoration: none;
   transition: all ${({ theme }) => theme.transition.main};
   cursor: pointer;
+  background: none;
 `;
 
 const MainButton = css`

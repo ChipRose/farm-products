@@ -4,11 +4,10 @@ const GlobalStyle = createGlobalStyle`
   html {
     width: 100vw;
     min-height: 100vh;
-    overflow-x: hidden;
   }
 
   body {
-    margin: 0 0 0 calc(100vw - 100%);
+    margin: 0;
     width: 100vw;
     min-width: 1140px;
     min-height: 100vh;
